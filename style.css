@@ -52,7 +52,7 @@
     margin-right: 50px;
     height: 700px;
     width: auto;
-    background: url(/images/img-mission-background.jpg);
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*h6z5kh*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w");
     flex-direction: column;
 }
 
@@ -93,7 +93,7 @@
 /* Locations Flexbox Containers */
 
 .locationsContainer {
-    background: url("/images/img-locations-background.jpg");
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1w4d7wl*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w");
     height: 550px;
     width: 1200px;
     margin-top: 19px;
