@@ -71,7 +71,7 @@ h6 {
 
     height: 700px;
     width: 1200px;
-    background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*12ug9lt*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NTAxMTI2Ni45OC4xLjE2NzUwMTEyNzMuNTMuMC4w);
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*12ug9lt*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NTAxMTI2Ni45OC4xLjE2NzUwMTEyNzMuNTMuMC4w");
     margin: 0 auto;
     margin-bottom: 80px;
 }
