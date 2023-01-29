@@ -1,0 +1,132 @@
+/* Universal */
+
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Top Flexbox Containers */
+
+.teaCozyContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navBarContainer {
+    display: inline-flex;
+    align-items: center;
+}
+
+.navBarContainer h4 {
+    margin-left: 20px;
+    text-decoration: underline;
+    
+}
+
+
+.navBarContainer h4:hover {
+    color: #6F4E37;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: "Dancing Script";
+    text-decoration: none;
+}
+
+.navBarContainer h4:active {
+    text-decoration: none;
+    color: seashell;
+    text-shadow: 0px 0px 0px seashell;
+}
+
+/* Our Mission Flexbox Container */
+
+.ourMissionContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 700px;
+    width: auto;
+    background: url(/images/img-mission-background.jpg);
+    flex-direction: column;
+}
+
+.ourMission h2, h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tea of the Month Flexbox */
+
+.teaOfTheMonthHeader h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.teaContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.teaImageContainer img {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.teaImageContainer h4 {
+    margin-top: 10px;
+}
+
+
+/* Locations Flexbox Containers */
+
+.locationsContainer {
+    background: url("/images/img-locations-background.jpg");
+    height: 550px;
+    width: 1200px;
+    margin-top: 19px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.locationsContainer h2 {
+    display: flex;
+    justify-content: center;
+    background-color: transparent !important;
+    padding-top: 140px;
+}
+
+
+.locationWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: transparent !important;
+}
+
+
+
+/* Contact */
+
+.contact {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
