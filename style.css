@@ -3,8 +3,21 @@
 * {
     font-family: Helvetica;
     color: seashell;
-    background-color: black;
     opacity: 0.9;
+}
+
+h4 {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+h6 {
+    float: right;
+    font-family: "Dancing Script";
+    font-size: 25px;
 }
 
 /* Top Flexbox Containers */
@@ -12,8 +25,13 @@
 .teaCozyContainer {
     display: flex;
     justify-content: space-between;
+
     height: 50px;
     margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid seashell;
+    padding-bottom: 9.5px;
+    padding-top: 9.5px;
 }
 
 .navBarContainer {
@@ -40,6 +58,8 @@
     text-decoration: none;
     color: seashell;
     text-shadow: 0px 0px 0px seashell;
+    font-size: 23px;
+    margin-left: 17px;
 }
 
 /* Our Mission Flexbox Container */
@@ -47,20 +67,20 @@
 .ourMissionContainer {
     display: flex;
     justify-content: center;
-    margin-top: 19px;
-    margin-left: 50px;
-    margin-right: 50px;
+    align-items: center;
+
     height: 700px;
-    width: auto;
-    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*h6z5kh*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w");
-    flex-direction: column;
+    width: 1200px;
+    background: url(/images/img-mission-background.jpg);
+    margin: 0 auto;
+    margin-bottom: 80px;
 }
 
-.ourMission h2, h4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.ourMission {
+    background-color: black;
+    width: 100%;
+    opacity: 1;
+    text-align: center;
 }
 
 /* Tea of the Month Flexbox */
@@ -70,52 +90,108 @@
     margin-top: 40px;
 }
 
-
-
-.teaContainer {
+.tea-container-1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+}
+
+.tea-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .teaImageContainer img {
     width: 300px;
     height: 200px;
-    text-align: center;
 }
 
 .teaImageContainer h4 {
     margin-top: 10px;
 }
 
+.flexbox-item-1,
+.flexbox-item-2,
+.flexbox-item-3,
+.flexbox-item-4 {
+    margin-right: 30px;
+}
+
+.flexbox-item-1 img:hover,
+.flexbox-item-2 img:hover,
+.flexbox-item-3 img:hover,
+.flexbox-item-4 img:hover,
+.flexbox-item-5 img:hover {
+    box-shadow: 0px 0px 15px seashell;
+    cursor: pointer;
+}
+
+.flexbox-item-1 img:active,
+.flexbox-item-2 img:active,
+.flexbox-item-3 img:active,
+.flexbox-item-4 img:active,
+.flexbox-item-5 img:active {
+    box-shadow: 0px 0px 25px seashell;
+    width: 305px;
+    height: 202.5px;
+}
+
 
 /* Locations Flexbox Containers */
 
-.locationsContainer {
-    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1w4d7wl*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w");
-    height: 550px;
-    width: 1200px;
-    margin-top: 19px;
-    margin-left: 50px;
-    margin-right: 50px;
+.locations {
+    font-family: "Dancing Script";
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-shadow: 2px 1px 2px black;
 }
 
-.locationsContainer h2 {
+.location-header {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.flexbox-container {
     display: flex;
     justify-content: center;
-    background-color: transparent !important;
-    padding-top: 140px;
+    align-items: center;
+
+    background: url("/images/img-locations-background.jpg");
+    background-size:stretch;
+    width: 1200px;
+    height: 570px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    position: relative;
 }
 
-
-.locationWrapper {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-    background-color: transparent !important;
+.flexbox-item {
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+    text-align: center;
+    opacity: 0.8;
 }
 
+.flexbox-item:hover {
+    box-shadow: 10px 10px 50px black;
+    cursor: pointer;
+    background-color: #6F4E37;
+}
+
+.flexbox-item:active {
+    width: 305px;
+    height: 182.5px;
+    box-shadow: 0px 0px 20px seashell;
+}
 
 
 /* Contact */
@@ -124,9 +200,69 @@
     text-align: center;
 }
 
+.contact-container {
+    height: 160px;
+    margin-top: 40px;
+}
+
+.email:hover {
+    color: #6F4E37;
+    font-family: "Dancing Script";
+    font-size: 20px;
+    margin: -5px 0px -1px 0px; 
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.email:active {
+    color: seashell;
+    font-family: "Dancing Script";
+    font-size: 21px;
+    margin: -5px 0px -2.5px 0px;
+}
+
 /* Footer */
 
 footer {
     text-align: left;
-    margin-left: 20px;
+    margin-left: 10px;
+    border-top: 1px solid seashell;
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    padding-bottom: 5px;
 }
+
+footer img {
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-top: -52px;
+}
+
+/* Codecademy H6 Tag */
+
+.codecademy {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.codecademy:hover {
+    color: #6F4E37;
+    font-size: 25.5px;
+}
+
+.codecademy:active {
+    color: seashell;
+    font-size: 26px;
+}
+
+.codecademy2 {
+    margin-top: 60px;
+    padding-bottom: 5px;
+    margin-right: -290px;
+    float: right;
+}
+

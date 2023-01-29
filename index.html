@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Tea Cozy</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/resources/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Solitreo&family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Nunito+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Solitreo&family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="teaCozyContainer">
-        <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png?_gl=1*w8ukdq*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w" alt="logo">
+        <img src="/images/img-tea-cozy-logo.png" alt="Tea Cozy logo">
         <div class="navBarContainer">
-            <h4 title="Find out what our mission is">Mission</h4>
-            <h4 title="Our selection of tea">Featured Tea</h4>
-            <h4 title="Our available locations">Locations</h4>
+            <h4 title="Find out what our mission is">
+                <a id="mission" href="#mission">Mission</a>
+            </h4>
+            <h4 title="Our selection of tea">
+                <a href="#featuredTea">Featured Tea</a>
+            </h4>
+            <h4 title="Our available locations">
+                <a href="#locations">Locations</a>
+            </h4>
         </div>
     </div>
 
     <div class="ourMissionContainer">
-        <img src="" alt="">
         <div class="ourMission">
             <h2>Our Mission</h2>
             <h4>Handpicked, Artisanally Curated, Free 
@@ -32,69 +35,102 @@
     </div>
     
     <div class="teaOfTheMonthHeader">
-        <h2>Tea of the Month</h2>
+        <h2 id="featuredTea">Tea of the Month</h2>
         <h4>What's Steeping at The Tea Cozy?</h4>
     </div>
 
-    <div class="teaContainer">
-        <div class="teaImageContainer">
-            <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg?_gl=1*110f32o*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w" alt="Fall Berry Blutz Tea">
+    <div class="tea-container-1">
+        <div class="teaImageContainer flexbox-item-1">
+            <a href="https://www.thenews.com.pk/assets/front/tiny_mce/source/kremlen1.JPG"
+            target="_blank">
+                <img src="/images/img-berryblitz.jpg" alt="Fall Berry Blutz Tea" title="Click to see what's steeping!">
+            </a>
             <h4>Fall Berry Blutz Tea</h4>
         </div>
 
-        <div class="teaImageContainer">
-            <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg?_gl=1*110f32o*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w" alt="Spiced Rum Tea">
+        <div class="teaImageContainer flexbox-item-2">
+            <a href="https://media.istockphoto.com/id/1167582820/photo/arab-man-smelling-tea-in-a-coffee-shop.jpg?s=612x612&w=0&k=20&c=-_K7wT-rsQkqWH2kWojKo3m4UDSwiiYySLd9pu9rBZo=" target="_blank">
+                <img src="/images/img-spiced-rum.jpg" alt="Spiced Rum Tea" title="Click to see what's steeping!">
+            </a>
             <h4>Spiced Rum Tea</h4>
         </div>
 
-        <div class="teaImageContainer"> 
-            <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg?_gl=1*1qj4t56*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w" alt="Seasonal Donuts">
+        <div class="teaImageContainer flexbox-item-3">
+            <a href="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_2.0/c_limit,w_600/f_jpg/fl_lossy,q_auto/v1492176512/articles/2015/09/27/inside-the-secret-world-of-arab-playboys/150925-sykes-arab-playboys-tease_asrkbp"
+            target="_blank">
+                <img src="/images/img-donut.jpg" alt="Seasonal Donuts" title="Click to see what's steeping!">
+            </a>
             <h4>Seasonal Donuts</h4>
         </div>
-
-        <div class="teaImageContainer">   
-            <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg?_gl=1*1qj4t56*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w" alt="Myrtle Ave Tea">
+    </div>
+    <div class="tea-container-2">
+        <div class="teaImageContainer flexbox-item-4">   
+            <a href="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg"
+            target="_blank">
+                <img src="/images/img-myrtle-ave.jpg" alt="Myrtle Ave Tea" title="Click to see what's steeping!">
+            </a>
             <h4>Myrtle Ave Tea</h4>
         </div>
 
-        <div class="teaImageContainer">   
-            <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg?_gl=1*1qj4t56*_ga*Nzg4MjM2MTQ2NC4xNjc0MDk2NTMz*_ga_3LRZM6TM9L*MTY3NDk0MDU0NS45NS4xLjE2NzQ5NDA1NDcuNTguMC4w" alt="Bedford Bizarre Tea">
+        <div class="teaImageContainer flexbox-item-5">
+            <a href="https://i.pinimg.com/736x/44/02/52/4402524ec9b419a43421e06ac0024d60.jpg" target="_blank">   
+                <img src="/images/img-bedford-bizarre.jpg" alt="Bedford Bizarre Tea" title="Click to see what's steeping!">
+            </a>
             <h4>Bedford Bizarre Tea</h4>
         </div>
+    </div>
 
+    <div class="flexbox-container">
+        <div class="location-header">
+            <h2 class="locations" id="locations">Locations</h2>
+        </div>
+            <div class="flexbox-item">
+                <a href="https://www.google.com/maps/search/384+West+4th+St+Suite+108+Portland,+Maine/@43.6670672,-70.2465341,17798m/data=!3m2!1e3!4b1" target="_blank" 
+                title="Open in Google Maps">
+                    <h3><b>Downtown</b></h3>
+                    <h4>384 West 4th St</h4>
+                    <h4>Suite 108</h4>
+                    <h4>Portland, Maine</h4>
+                </a>
+            </div>
+            <div class="flexbox-item">
+                <a href="https://www.google.com/maps/search/East+Bayside+3433+Phisherman's+Avenue+(Northwest+Corner)+Portland,+Maine/@43.6636204,-70.2576085,1112m/data=!3m2!1e3!4b1" 
+                target="_blank" title="Open in Google Maps">
+                    <h3><b>East Bayside</b></h3>
+                    <h4>3433 Phisherman's Avenue</h4>
+                    <h4>(Northwest Corner)</h4>
+                    <h4>Portland, Maine</h4>
+                </a>
+            </div>
+            <div class="flexbox-item">
+                <a href="https://www.google.com/maps/search/Oakdale+515+Crescent+Avenue+Second+Floor+Portland,+Maine/@43.6662201,-70.2577565,8899m/data=!3m2!1e3!4b1" 
+                target="_blank" title="Open in Google Maps">
+                    <h3><b>Oakdale</b></h3>
+                    <h4>515 Crescent Avenue</h4>
+                    <h4>Second Floor</h4>
+                    <h4>Portland, Maine</h4>
+                </a>
+            </div>
+            <a></a>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact">
+            <h2>The Tea Cozy</h2>
+            <a href="mailto:contact@theteacozy.com">
+                <h5 class="email">contact@theteacozy.com</h5>
+            </a>
+            <h5>917-555-8904</h5>
         </div>
     </div>
 
-    <div class="locationsContainer">
-        <h2>Locations</h2>
-         <div class="locationWrapper">
-            <div class="locations">
-                <h4 class="bold">Downtown</h4>
-                <h4>384 West 4th St</h4>
-                <h4>Suite 108</h4>
-                <h4>Portland, Maine</h4>
-            </div>
-            <div class="locations">
-                <h4 class="bold">East Bayside</h4>
-                <h4>3433 Phisherman's Avenue</h4>
-                <h4>(Northwest Corner)</h4>
-                <h4>Portland, Maine</h4>
-            </div>
-            <div class="locations">
-                <h4 class="bold">Oakdale</h4>
-                <h4>515 Crescent Avenue</h4>
-            <h4>Portland, Maine</h4>
-            </div>
-        </div>
-    </div>
-
-    <div class="contact">
-        <h2>The Tea Cozy</h2>
-        <h5>contact@theteacozy.com</h5>
-        <h5>917-555-8904</h5>
-    </div>
-
-    <footer>copyright The Tea Cozy 2023</footer>
-    
+    <footer>
+        <h5>copyright The Tea Cozy 2023</h5>
+        <img src="https://images.codecademy.com/social/logo-codecademy-social.png" alt="Codecademy logo">
+    </footer>
+    <a href="https://www.codecademy.com" target="_blank" title="Head to the Codecademy Website">
+        <h6 class="codecademy">This site is a Codecademy project</h6>
+    </a>
+    <h6 class="codecademy2">Made by Youssif Ganni</h6>
 </body>
 </html>
